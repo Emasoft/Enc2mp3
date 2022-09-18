@@ -1,3 +1,5 @@
+#ENCODE TO MP3
+
 *ENCODE TO MP3* is a shortcut to convert multiple audio files from any format into MP3 or M4A files with the LAME or AAC Encoder.  
   
   
