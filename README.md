@@ -1,4 +1,4 @@
 # Enc2mp3
 A Python CLI program for converting audio files to MP3 or MP4 (.m4a) format Using ffmpeg
 
-A handy Siri Shortcut is included to use it on iOS/iPad OS.
+A handy [Siri Shortcut](https://github.com/Emasoft/Enc2mp3/tree/main/siri%20shortcut) is included to use it on iOS/iPad OS.
