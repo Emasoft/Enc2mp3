@@ -1,5 +1,3 @@
-# ENCODE TO MP3
-
 *ENCODE TO MP3* is a shortcut to convert multiple audio files from any format into MP3 or M4A files with the LAME or AAC Encoder.  
   
   
@@ -9,7 +7,7 @@ How to use it
  - The shortcut will open the a-Shell mini app and will do the conversion using ffmpeg.  
  - You can convert to **MP3** using the **Lame MP3 encoder** at the best quality (320k constant bit rate) or at a quality optimized for file size (variable bit rate 190-250k).  
  - Or you can convert to **M4A** (the audio only version of MP4) using the **AAC MP4 encoder** at the best quality (270k constant bit rate) or at a quality optimized for file size (192k constant bit rate).  
- - You can choose to just **copy the audio streams** in the new container format, without re-encoding. This is called '**remuxing**'. But since not all codecs are supported by all formats, this conversion can fail. **WARNING**: Be sure to check if the source file audio codec is supported by the output container format before trying to remux.  
+ - You can choose to just **copy the audio streams** in the new container format, without re-encoding. This is called '**remuxing**'. But since not all codecs are supported by all formats, this remuxing may not be possible, and ffmpeg will choose to re-encode to the most similar codec and quality available in the container. Be sure to check if the source file audio codec is supported by the output container format before trying to remux.  
  - You will also be asked if you want to **normalize** the volume of the files.  
  - Wait the shortcut to end all the processing, without touching anything, and after a while you will be asked where to save the resulting MP3 / M4A audio files.  
  - To avoid confusion, a suffix '(was xxx)', where xxx is the previous file extension, will be added to the file names.  
@@ -63,8 +61,7 @@ ACKNOWLEDGEMENTS
 INFO
 ====
  - First Release: 2022-07-13 	v1.0.0   
- - Latest: 2022-08-17 	v1.1.1  
+ - Latest: 2023-02-12 v1.2.3  
  - Author: [u/fremenmuaddib](https://www.reddit.com/user/fremenmuaddib/)   
  - This shortcut is canonically available on RoutineHub at https://routinehub.co/shortcut/12550/  
-  
-   
+ 
