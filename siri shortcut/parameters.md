@@ -34,9 +34,11 @@ INPUT:
  -         'CBR192' : Convert to 270k constant bit rate  
  -         'CBR192_NORM' : Convert to 192k constant bit rate and Normalize  
  -         'VBR190' : Convert to 190-250 variable bit rate  
- -         'VBR190_NORM' . Convert to 190-250 variable bit rate and Normalize
- -         'TRY_REMUX' . Try stream copy to remux audio (no re-encoding)
- -         'TRY_REMUX_NORM' . Try to remux audio (no re-encoding) and Normalize
+ -         'VBR190_NORM' : Convert to 190-250 variable bit rate and Normalize
+ -         'TRY_REMUX' : Try stream copy to remux audio (no re-encoding)
+ -         'TRY_REMUX_NORM' : Try to remux audio (no re-encoding) and Normalize
+ -         'LOSSLESS' : Convert to lossless format (i.e. FLAC)  
+ -         'LOSSLESS_NORM' : Convert to lossless format (i.e. FLAC) and Normalize  
  -
  -  
  -  
@@ -45,6 +47,7 @@ INPUT:
  - VALUE = (one of the following:)   
  -         'mp3' : Convert to mp3 (LAME mp3 codec)   
  -         'm4a' : Convert to m4a (AAC mp4 codec)  
+ -         'flac'  :  Convert to FLAC (lossless compression)  
  -  
  -  
  - KEY = 'skip_mp3' ('arguments.skip_mp3' in dot notation)  

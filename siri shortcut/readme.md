@@ -12,6 +12,7 @@ How to use it
  - Wait the shortcut to end all the processing, without touching anything, and after a while you will be asked where to save the resulting MP3 / M4A audio files.  
  - To avoid confusion, a suffix '(was xxx)', where xxx is the previous file extension, will be added to the file names.  
  - If you select **video files** they will be converted **to audio only** MP3/M4A files.  
+ - **(NEW!!)** You can now convert to and from the **FLAC** audio format (lossless compression, best quality but huge file size!).  
  
  
 Calling it from other Shortcuts  
@@ -61,7 +62,7 @@ ACKNOWLEDGEMENTS
 INFO
 ====
  - First Release: 2022-07-13 	v1.0.0   
- - Latest: 2023-02-12 v1.2.3  
+ - Latest: 2023-03-21 v1.3.0  
  - Author: [u/fremenmuaddib](https://www.reddit.com/user/fremenmuaddib/)   
  - This shortcut is canonically available on RoutineHub at https://routinehub.co/shortcut/12550/  
  
