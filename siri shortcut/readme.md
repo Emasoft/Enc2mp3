@@ -62,7 +62,7 @@ ACKNOWLEDGEMENTS
 INFO
 ====
  - First Release: 2022-07-13 	v1.0.0   
- - Latest: 2023-03-21 v1.3.0  
+ - Latest Version: 2023-04-11 v1.3.3   
  - Author: [u/fremenmuaddib](https://www.reddit.com/user/fremenmuaddib/)   
  - This shortcut is canonically available on RoutineHub at https://routinehub.co/shortcut/12550/  
  
